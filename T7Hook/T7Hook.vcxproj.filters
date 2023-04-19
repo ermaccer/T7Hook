@@ -1,0 +1,359 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\unreal">
+      <UniqueIdentifier>{94a47493-a4ef-4219-9d1c-9a6e3f16311b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\utils">
+      <UniqueIdentifier>{5a19408b-200c-4127-affe-a9bc8ce96384}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\plugin">
+      <UniqueIdentifier>{687d784b-4637-4f17-ba4a-e2e9d93008cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\tekken">
+      <UniqueIdentifier>{23940ed2-ad54-4cd8-8ddc-fdb53b7e6d50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\gui">
+      <UniqueIdentifier>{eea63a30-52c8-4aa3-8bdf-c9712255c6b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\gui\imgui">
+      <UniqueIdentifier>{a756cdcc-832c-4d0d-84cf-5fed1dea5e24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\minhook">
+      <UniqueIdentifier>{d2632fa2-be6e-4532-9c8c-119d5013f58d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\helper">
+      <UniqueIdentifier>{9f00343c-6903-4864-880a-c5909737f73c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="unreal\FVector.h">
+      <Filter>Header Files\unreal</Filter>
+    </ClInclude>
+    <ClInclude Include="unreal\TArray.h">
+      <Filter>Header Files\unreal</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\addr.h">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\MemoryMgr.h">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\Trampoline.h">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="unreal\FRotator.h">
+      <Filter>Header Files\unreal</Filter>
+    </ClInclude>
+    <ClInclude Include="unreal\FTViewTarget.h">
+      <Filter>Header Files\unreal</Filter>
+    </ClInclude>
+    <ClInclude Include="unreal\AActor.h">
+      <Filter>Header Files\unreal</Filter>
+    </ClInclude>
+    <ClInclude Include="unreal\UObject.h">
+      <Filter>Header Files\unreal</Filter>
+    </ClInclude>
+    <ClInclude Include="unreal\APlayerCameraManager.h">
+      <Filter>Header Files\unreal</Filter>
+    </ClInclude>
+    <ClInclude Include="plugin\APlayerCameraManagerHooked.h">
+      <Filter>Header Files\plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="unreal\APlayerController.h">
+      <Filter>Header Files\unreal</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\core.h">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\Patterns.h">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="unreal\AHUD.h">
+      <Filter>Header Files\unreal</Filter>
+    </ClInclude>
+    <ClInclude Include="tekken\CharacterInfo.h">
+      <Filter>Header Files\tekken</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\font.h">
+      <Filter>Header Files\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\imgui\imconfig.h">
+      <Filter>Header Files\gui\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\imgui\imgui.h">
+      <Filter>Header Files\gui\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\imgui\imgui_impl_dx11.h">
+      <Filter>Header Files\gui\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\imgui\imgui_impl_win32.h">
+      <Filter>Header Files\gui\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\imgui\imgui_internal.h">
+      <Filter>Header Files\gui\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\imgui\imstb_rectpack.h">
+      <Filter>Header Files\gui\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\imgui\imstb_textedit.h">
+      <Filter>Header Files\gui\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\imgui\imstb_truetype.h">
+      <Filter>Header Files\gui\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\dx11hook.h">
+      <Filter>Header Files\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="minhook\src\buffer.h">
+      <Filter>Header Files\minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="minhook\src\trampoline.h">
+      <Filter>Header Files\minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="minhook\src\hde\hde32.h">
+      <Filter>Header Files\minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="minhook\src\hde\hde64.h">
+      <Filter>Header Files\minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="minhook\src\hde\pstdint.h">
+      <Filter>Header Files\minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="minhook\src\hde\table32.h">
+      <Filter>Header Files\minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="minhook\src\hde\table64.h">
+      <Filter>Header Files\minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\log.h">
+      <Filter>Header Files\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\gui_impl.h">
+      <Filter>Header Files\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="plugin\Menu.h">
+      <Filter>Header Files\plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="unreal\FName.h">
+      <Filter>Header Files\unreal</Filter>
+    </ClInclude>
+    <ClInclude Include="unreal\UWorld.h">
+      <Filter>Header Files\unreal</Filter>
+    </ClInclude>
+    <ClInclude Include="unreal\ULevelStreaming.h">
+      <Filter>Header Files\unreal</Filter>
+    </ClInclude>
+    <ClInclude Include="unreal\ULevel.h">
+      <Filter>Header Files\unreal</Filter>
+    </ClInclude>
+    <ClInclude Include="unreal\FString.h">
+      <Filter>Header Files\unreal</Filter>
+    </ClInclude>
+    <ClInclude Include="tekken\AModularTekkenPlayer.h">
+      <Filter>Header Files\tekken</Filter>
+    </ClInclude>
+    <ClInclude Include="tekken\ACharacterManager.h">
+      <Filter>Header Files\tekken</Filter>
+    </ClInclude>
+    <ClInclude Include="tekken\ACharacterLoadHelper.h">
+      <Filter>Header Files\tekken</Filter>
+    </ClInclude>
+    <ClInclude Include="unreal\SkeletalMeshComponent.h">
+      <Filter>Header Files\unreal</Filter>
+    </ClInclude>
+    <ClInclude Include="unreal\FMatrix.h">
+      <Filter>Header Files\unreal</Filter>
+    </ClInclude>
+    <ClInclude Include="unreal\FTransform.h">
+      <Filter>Header Files\unreal</Filter>
+    </ClInclude>
+    <ClInclude Include="unreal\FQuat.h">
+      <Filter>Header Files\unreal</Filter>
+    </ClInclude>
+    <ClInclude Include="unreal\USceneComponent.h">
+      <Filter>Header Files\unreal</Filter>
+    </ClInclude>
+    <ClInclude Include="plugin\Settings.h">
+      <Filter>Header Files\plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\IniReader.h">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="helper\eKeyboardMan.h">
+      <Filter>Header Files\helper</Filter>
+    </ClInclude>
+    <ClInclude Include="unreal\Math.h">
+      <Filter>Header Files\unreal</Filter>
+    </ClInclude>
+    <ClInclude Include="tekken\ATekkenGFxHUD.h">
+      <Filter>Header Files\tekken</Filter>
+    </ClInclude>
+    <ClInclude Include="tekken\GameSpeed.h">
+      <Filter>Header Files\tekken</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\notifications.h">
+      <Filter>Header Files\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\addr.cpp">
+      <Filter>Header Files\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="unreal\FTViewTarget.cpp">
+      <Filter>Header Files\unreal</Filter>
+    </ClCompile>
+    <ClCompile Include="unreal\APlayerCameraManager.cpp">
+      <Filter>Header Files\unreal</Filter>
+    </ClCompile>
+    <ClCompile Include="plugin\APlayerCameraManagerHooked.cpp">
+      <Filter>Header Files\plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\Patterns.cpp">
+      <Filter>Header Files\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="tekken\CharacterInfo.cpp">
+      <Filter>Header Files\tekken</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\imgui\imgui.cpp">
+      <Filter>Header Files\gui\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\imgui\imgui_demo.cpp">
+      <Filter>Header Files\gui\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\imgui\imgui_draw.cpp">
+      <Filter>Header Files\gui\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\imgui\imgui_impl_dx11.cpp">
+      <Filter>Header Files\gui\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\imgui\imgui_impl_win32.cpp">
+      <Filter>Header Files\gui\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\imgui\imgui_tables.cpp">
+      <Filter>Header Files\gui\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\imgui\imgui_widgets.cpp">
+      <Filter>Header Files\gui\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\dx11hook.cpp">
+      <Filter>Header Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="minhook\src\buffer.c">
+      <Filter>Header Files\minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="minhook\src\hook.c">
+      <Filter>Header Files\minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="minhook\src\trampoline.c">
+      <Filter>Header Files\minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="minhook\src\hde\hde32.c">
+      <Filter>Header Files\minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="minhook\src\hde\hde64.c">
+      <Filter>Header Files\minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\log.cpp">
+      <Filter>Header Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\gui_impl.cpp">
+      <Filter>Header Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="plugin\Menu.cpp">
+      <Filter>Header Files\plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="unreal\UWorld.cpp">
+      <Filter>Header Files\unreal</Filter>
+    </ClCompile>
+    <ClCompile Include="unreal\FString.cpp">
+      <Filter>Header Files\unreal</Filter>
+    </ClCompile>
+    <ClCompile Include="unreal\FName.cpp">
+      <Filter>Header Files\unreal</Filter>
+    </ClCompile>
+    <ClCompile Include="unreal\UObject.cpp">
+      <Filter>Header Files\unreal</Filter>
+    </ClCompile>
+    <ClCompile Include="tekken\ACharacterLoadHelper.cpp">
+      <Filter>Header Files\tekken</Filter>
+    </ClCompile>
+    <ClCompile Include="tekken\ACharacterManager.cpp">
+      <Filter>Header Files\tekken</Filter>
+    </ClCompile>
+    <ClCompile Include="tekken\AModularTekkenPlayer.cpp">
+      <Filter>Header Files\tekken</Filter>
+    </ClCompile>
+    <ClCompile Include="unreal\AActor.cpp">
+      <Filter>Header Files\unreal</Filter>
+    </ClCompile>
+    <ClCompile Include="unreal\SkeletalMeshComponent.cpp">
+      <Filter>Header Files\unreal</Filter>
+    </ClCompile>
+    <ClCompile Include="unreal\FMatrix.cpp">
+      <Filter>Header Files\unreal</Filter>
+    </ClCompile>
+    <ClCompile Include="unreal\FRotator.cpp">
+      <Filter>Header Files\unreal</Filter>
+    </ClCompile>
+    <ClCompile Include="unreal\USceneComponent.cpp">
+      <Filter>Header Files\unreal</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\IniReader.cpp">
+      <Filter>Header Files\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="helper\eKeyboardMan.cpp">
+      <Filter>Header Files\helper</Filter>
+    </ClCompile>
+    <ClCompile Include="plugin\Settings.cpp">
+      <Filter>Header Files\plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="unreal\FQuat.cpp">
+      <Filter>Header Files\unreal</Filter>
+    </ClCompile>
+    <ClCompile Include="unreal\Math.cpp">
+      <Filter>Header Files\unreal</Filter>
+    </ClCompile>
+    <ClCompile Include="tekken\ATekkenGFxHUD.cpp">
+      <Filter>Header Files\tekken</Filter>
+    </ClCompile>
+    <ClCompile Include="tekken\GameSpeed.cpp">
+      <Filter>Header Files\tekken</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\notifications.cpp">
+      <Filter>Header Files\gui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="T7Hook.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

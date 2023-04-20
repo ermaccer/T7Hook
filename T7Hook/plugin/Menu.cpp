@@ -335,6 +335,12 @@ void T7Menu::DrawCameraTab()
 
 void T7Menu::DrawPlayerTab()
 {
+	if (!GetCharacterInfo(0))
+		return;
+
+	if (!GetCharacterInfo(1))
+		return;
+
 	ACharacterManager* cm = GetCharacterManager();
 	if (!cm)
 		return;

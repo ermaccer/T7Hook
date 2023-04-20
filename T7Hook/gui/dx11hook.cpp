@@ -45,7 +45,7 @@ bool DX11Hook::Initialize()
 
 	swapChainDescription.SampleDesc.Count = 1;
 
-	HRESULT hResult = D3D11CreateDeviceAndSwapChain(nullptr, D3D_DRIVER_TYPE_NULL, nullptr, D3D11_CREATE_DEVICE_DEBUG, &featureLevel, 1,
+	HRESULT hResult = D3D11CreateDeviceAndSwapChain(nullptr, D3D_DRIVER_TYPE_NULL, nullptr, 0, &featureLevel, 1,
 		D3D11_SDK_VERSION, &swapChainDescription, &swapChain, &device, nullptr, &context);
 
 	if (FAILED(hResult))

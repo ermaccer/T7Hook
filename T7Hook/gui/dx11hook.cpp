@@ -50,7 +50,7 @@ bool DX11Hook::Initialize()
 
 	if (FAILED(hResult))
 	{
-		eLog::Message(__FUNCTION__, "ERROR: Failed to create D3D11 device. Error code: 0xX", hResult);
+		eLog::Message(__FUNCTION__, "ERROR: Failed to create D3D11 device. Error code: 0x%X", hResult);
 		return false;
 	}
 
